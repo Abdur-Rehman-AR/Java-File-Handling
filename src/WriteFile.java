@@ -1,8 +1,6 @@
 import java.io.FileWriter;
 import java.io.IOException;
-
 public class WriteFile {
-
     public static void main(String[] args) {
 
         try {
@@ -20,7 +18,7 @@ public class WriteFile {
              * It doesn't instantly write to the hard drive because doing that
              * character-by-character is slow. Instead, it saves the text in a buffer.
              */
-            writer.write("My name is Abdur Rehman.");
+            writer.write("Hello World");
 
             /*
              * close() method Flushes the Data as it forces all the text stuck buffer
