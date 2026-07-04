@@ -1,20 +1,15 @@
 import java.io.ByteArrayInputStream;
-
 public class ByteArrayInputStreamExample {
-
     public static void main(String[] args) {
 
         /*
          * since this specific class cannot work with files but only with byte array
          * present in RAM, so we first create a String data and then convert it into
-         * bytes
-         * Array and then it is loaded into RAM automatically. As, the moment you
-         * declare a
-         * variable or create an object in Java, it is instantly and automatically
-         * placed
-         * into your RAM by the JVM. Your computer's CPU cannot work with data directly
-         * from
-         * a hard drive, everything your program executes must live in the RAM to run.
+         * bytes Array and then it is loaded into RAM automatically. As, the moment 
+         * you declare a variable or create an object in Java, it is instantly and 
+         * automatically placed into your RAM by the JVM. Your computer's CPU cannot 
+         * work with data directly from a hard drive, everything your program executes 
+         * must live in the RAM to run.
          */
 
         String data = "I_am_Abdur_Rehman_and_I_am_learning_Java.";
