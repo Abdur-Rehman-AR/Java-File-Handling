@@ -1,2 +1,1 @@
-Abdur Rehman
-I am rich.
+Hello World

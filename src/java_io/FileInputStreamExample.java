@@ -1,3 +1,5 @@
+package java_io;
+
 import java.io.*;
 
 public class FileInputStreamExample {

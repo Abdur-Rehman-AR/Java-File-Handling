@@ -1,3 +1,4 @@
+package java_io;
 import java.io.FileWriter;
 import java.io.IOException;
 public class WriteFile {
